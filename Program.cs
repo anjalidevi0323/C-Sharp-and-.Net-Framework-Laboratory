@@ -1,7 +1,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace CSharpForms
+namespace StudentForm
 {
     internal static class Program
     {
@@ -9,6 +9,7 @@ namespace CSharpForms
         static void Main()
         {
             ApplicationConfiguration.Initialize();
+
             Application.Run(new Form1());
         }
     }
